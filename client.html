@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+        <title> Ludo </title>
+		<link rel = "stylesheet" href = "ludo.css">
+	</head>
+    <body>
+        <div style = "margin-bottom: 250px; color: red;"> 
+            <h1 style = "color: black; text-align: center;" > Game Rules </h1>
+            <ul> 
+                <li> Once you click on a sprite, then you get the dice rolled for you </li>
+                <li> If all four of your sprites win, they will be removed from the board and other players will be notified of your victory </li>
+                <li> In the box down below, turns are being displayed. Wait for your turn and then click on your own sprite </li>
+                <li> If you click on anybody else's sprite, nothing will happen </li>
+                <li> If you click on your own sprite and it is not your turn, a message will be displayed to you in the turn box down below to behave yourself </li>
+                <li> Once all 4 of your friends conenct, then the board, the dice and the turn value will be sent out to all of you </li>
+                <li> You can get a maximum of three consecutive sixes. After that, turn will be handed over to the next player. Your sprite, however, will not be burnt and stay there </li>
+                <li> In this game, there are no safe cells, i.e., your sprite gets killed no matter where it is placed on the board if some other sprite lands there </li>
+            </ul>
+        </div>
+        <div id = "root">
+            <!-- EMPTY DIV. SHALL BE USED LATER -->
+        </div>
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        
+        <script src = "/LudoJS" type = "text/babel"></script>
+        <script src = "/GameJS" type = "text/babel"></script>
+        <script src = "/AppJS" type = "text/babel"></script>
+        <script src = "/ClientJS" type = "text/babel"></script>
+    </body>
+</html>
